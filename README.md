@@ -3,6 +3,7 @@
 </div>
 
 <div align="center">
+  <img src="https://img.shields.io/badge/IDENTITY-UNDERGRADUATE_STUDENT-ec4899?style=for-the-badge" alt="Undergraduate student" />
   <a href="https://github.com/Sunshine-1023?tab=followers">
     <img src="https://img.shields.io/github/followers/Sunshine-1023?style=for-the-badge&logo=github&label=FOLLOWERS&color=7c3aed" alt="GitHub followers" />
   </a>
@@ -18,8 +19,10 @@
   <tr>
     <td width="58%" valign="top">
       <p>
-        我是一名正在探索 <strong>应用机器学习、推荐系统与全栈开发</strong> 的学习者。
-        喜欢从数据和实验出发，把模型、后端服务与可交互产品连接起来。
+        我是一名<strong>在读大学生</strong>，正在系统学习
+        <strong>应用机器学习、推荐系统与全栈开发</strong>。
+        我喜欢从数据和实验出发，把模型、后端服务与可交互产品连接起来，
+        也在用项目记录自己的成长轨迹。
       </p>
       <h3>What I Do</h3>
       <ul>
@@ -37,10 +40,41 @@
       <blockquote>Stay curious. Build things. Learn in public.</blockquote>
     </td>
     <td width="42%" valign="top">
-      <img src="./assets/current-focus.svg" width="100%" alt="Current focus" />
+      <img src="./assets/anime-student.svg" width="100%" alt="Anime-style university student coding at night" />
     </td>
   </tr>
 </table>
+
+## Campus & Code
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 Student Life</h3>
+      <p>在课程、项目和竞赛之间持续积累，把每一次实验都变成可复用的经验。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 Learning Focus</h3>
+      <p>应用机器学习、推荐系统、模型评估，以及更可靠的实验设计。</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛠️ Building</h3>
+      <p>可复现 ML 流程、数据应用、REST API，以及从模型到产品的完整链路。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌱 Next Step</h3>
+      <p>完成更多真实数据实验，参与开源协作，并持续改善工程质量。</p>
+    </td>
+  </tr>
+</table>
+
+## Current Focus
+
+<div align="center">
+  <img src="./assets/current-focus.svg" width="68%" alt="Current focus projects" />
+</div>
 
 ## Featured Projects
 
@@ -90,6 +124,10 @@
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
 </div>
 
+<div align="center">
+  <img src="./assets/campus-night.svg" width="100%" alt="Anime-inspired university campus at night" />
+</div>
+
 ## GitHub Overview
 
 <div align="center">
@@ -120,5 +158,5 @@
 3D CONTRIBUTION END -->
 
 <div align="center">
-  <sub>Thanks for visiting — feel free to explore my repositories and follow my learning journey.</sub>
+  <sub>Thanks for visiting — welcome to follow an undergraduate student's learning and building journey.</sub>
 </div>
