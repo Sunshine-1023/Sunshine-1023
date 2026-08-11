@@ -60,38 +60,11 @@
 </div>
 
 <details open>
-  <summary><b>🌱 Field guide</b> — 点击收起或展开每一组技术的用途</summary>
+  <summary><b>🌱 Field guide</b> — 点击收起或展开</summary>
   <br />
-  <table>
-    <tr>
-      <td><b>LLMs</b></td>
-      <td>持续关注 Claude、Gemini、DeepSeek、Qwen、Llama 与 Mistral 等主流模型生态。</td>
-    </tr>
-    <tr>
-      <td><b>Agents</b></td>
-      <td>用于 Agent 编排、工具调用与自动化工作流的 LangGraph、LangChain、LlamaIndex、CrewAI、MCP、Dify 与 n8n。</td>
-    </tr>
-    <tr>
-      <td><b>Inference</b></td>
-      <td>覆盖本地推理、模型服务与交互界面的 Ollama、vLLM、Hugging Face、OpenRouter、Gradio 与 Streamlit。</td>
-    </tr>
-    <tr>
-      <td><b>RAG / Data</b></td>
-      <td>面向向量检索、缓存与后端数据服务的 Qdrant、Milvus、pgvector、Redis 与 Supabase。</td>
-    </tr>
-    <tr>
-      <td><b>ML / RecSys</b></td>
-      <td>项目中使用 PyTorch、CatBoost、LightGBM、Pandas、RecBole 与 SASRec 完成建模和推荐系统实验。</td>
-    </tr>
-    <tr>
-      <td><b>Web / Data</b></td>
-      <td>使用 Vue 3、Django REST、JavaScript、MySQL 与 REST API 构建数据应用。</td>
-    </tr>
-    <tr>
-      <td><b>Lang / Ops</b></td>
-      <td>以 Python、Git、GitHub Actions、Kaggle 与 CI/CD 支撑开发、实验和持续集成。</td>
-    </tr>
-  </table>
+  <div align="center">
+    <img src="./assets/field-guide.svg" width="100%" alt="Field guide for the LLM ecosystem and technical stack" />
+  </div>
 </details>
 
 <h2 align="center">Featured Projects</h2>

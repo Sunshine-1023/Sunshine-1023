@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" width="1200" height="740">
+  <defs>
+    <style>
+      .title { font: 700 30px Inter, Arial, sans-serif; letter-spacing: 0; fill: #26282c; }
+      .subtitle { font: 500 16px Inter, Arial, sans-serif; letter-spacing: 0; fill: #8a8f97; }
+      .category { font: 700 17px Inter, Arial, sans-serif; letter-spacing: 0; }
+      .names { font: 700 18px Inter, Arial, sans-serif; letter-spacing: 0; }
+      .description { font: 500 15px Inter, "PingFang SC", "Microsoft YaHei", sans-serif; letter-spacing: 0; fill: #777d86; }
+      .divider { stroke: #f1dfdc; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect x="18" y="10" width="1164" height="720" rx="18" fill="#fffafb" stroke="#f0c7bf" stroke-width="2" />
+
+  <g transform="translate(58 50)" fill="none" stroke="#6ea45e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 18 C3 8 10 1 20 -2" />
+    <path d="M11 8 C17 0 27 -1 31 0 C29 9 21 14 12 13" fill="#8fbd72" stroke="none" />
+    <path d="M4 13 C0 6 -8 4 -13 6 C-10 14 -3 18 5 18" fill="#b4d985" stroke="none" />
+  </g>
+  <text x="108" y="59" class="title">Field guide</text>
+  <text x="285" y="58" class="subtitle">A quick map of the models, tools and engineering stack above</text>
+  <g transform="translate(1085 50)">
+    <circle cx="0" cy="0" r="6" fill="#ef6a4b" />
+    <circle cx="22" cy="0" r="6" fill="#7da267" />
+    <circle cx="44" cy="0" r="6" fill="#df5d98" />
+    <circle cx="66" cy="0" r="6" fill="#7769b5" />
+  </g>
+  <line x1="52" y1="86" x2="1148" y2="86" class="divider" />
+
+  <!-- LLMs -->
+  <g transform="translate(64 128)" fill="#ef6a4b">
+    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
+    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  </g>
+  <text x="92" y="134" class="category" fill="#dc6045">LLMs</text>
+  <text x="245" y="124" class="names" fill="#dc6045">Claude · Gemini · DeepSeek · Qwen · Llama · Mistral</text>
+  <text x="245" y="151" class="description">主流闭源与开源模型生态，关注推理、代码、多模态能力和本地部署选择。</text>
+  <line x1="52" y1="176" x2="1148" y2="176" class="divider" />
+
+  <!-- Agents -->
+  <g transform="translate(64 218)" fill="#7da267">
+    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
+    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  </g>
+  <text x="92" y="224" class="category" fill="#6f925d">AGENTS</text>
+  <text x="245" y="214" class="names" fill="#6f925d">LangGraph · LangChain · LlamaIndex · CrewAI · MCP · Dify · n8n</text>
+  <text x="245" y="241" class="description">用于 Agent 编排、知识连接、工具调用与可视化自动化工作流。</text>
+  <line x1="52" y1="266" x2="1148" y2="266" class="divider" />
+
+  <!-- Inference -->
+  <g transform="translate(64 308)" fill="#e8a23b">
+    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
+    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  </g>
+  <text x="92" y="314" class="category" fill="#d9922c">INFERENCE</text>
+  <text x="245" y="304" class="names" fill="#d9922c">Ollama · vLLM · Hugging Face · OpenRouter · Gradio · Streamlit</text>
+  <text x="245" y="331" class="description">覆盖本地推理、模型服务、统一接口以及快速搭建交互式演示。</text>
+  <line x1="52" y1="356" x2="1148" y2="356" class="divider" />
+
+  <!-- RAG / Data -->
+  <g transform="translate(64 398)" fill="#df5d98">
+    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
+    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  </g>
+  <text x="92" y="404" class="category" fill="#cf4f88">RAG / DATA</text>
+  <text x="245" y="394" class="names" fill="#cf4f88">Qdrant · Milvus · pgvector · Redis · Supabase</text>
+  <text x="245" y="421" class="description">用于向量检索、语义搜索、缓存和应用后端数据服务。</text>
+  <line x1="52" y1="446" x2="1148" y2="446" class="divider" />
+
+  <!-- ML / RecSys -->
+  <g transform="translate(64 488)" fill="#7b68b4">
+    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
+    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  </g>
+  <text x="92" y="494" class="category" fill="#705da8">ML / RECSYS</text>
+  <text x="245" y="484" class="names" fill="#705da8">PyTorch · CatBoost · LightGBM · Pandas · RecBole · SASRec</text>
+  <text x="245" y="511" class="description">支撑表格建模、深度学习、离线评估与序列推荐系统实验。</text>
+  <line x1="52" y1="536" x2="1148" y2="536" class="divider" />
+
+  <!-- Web / Data -->
+  <g transform="translate(64 578)" fill="#39c5bb">
+    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
+    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  </g>
+  <text x="92" y="584" class="category" fill="#289f98">WEB / DATA</text>
+  <text x="245" y="574" class="names" fill="#289f98">Vue 3 · Django REST · JavaScript · MySQL · REST APIs</text>
+  <text x="245" y="601" class="description">构建前后端分离的数据应用、业务接口与关系型数据管理系统。</text>
+  <line x1="52" y1="626" x2="1148" y2="626" class="divider" />
+
+  <!-- Languages / Ops -->
+  <g transform="translate(64 668)" fill="#7769b5">
+    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
+    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  </g>
+  <text x="92" y="674" class="category" fill="#6959a8">LANG / OPS</text>
+  <text x="245" y="664" class="names" fill="#6959a8">Python · Git · GitHub Actions · Kaggle · CI/CD</text>
+  <text x="245" y="691" class="description">覆盖日常开发、实验管理、版本控制和自动化质量检查。</text>
+</svg>

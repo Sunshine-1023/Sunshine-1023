@@ -16,6 +16,7 @@ Sunshine-1023/
 │   ├── header.svg
 │   ├── footer.svg
 │   ├── tech-stack.svg
+│   ├── field-guide.svg
 │   ├── miku-01.jpg ... miku-05.jpg
 │   ├── miku-diamond-01.png ... miku-diamond-05.png
 │   └── SOURCES.md
