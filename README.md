@@ -2,8 +2,18 @@
   <img src="./assets/header.svg" width="100%" alt="Sunshine-1023 profile banner" />
 </div>
 
+<br />
+
 <div align="center">
-  <img src="./assets/miku-hero-wide.jpg" width="100%" alt="Sakura Miku fantasy scene" />
+  <p>🌸 🌸 🌸 &nbsp; <b>🎨 初音画廊 · Miku Gallery</b> &nbsp; 🌸 🌸 🌸</p>
+  <p>
+    <img src="./assets/miku-diamond-01.png" width="17%" alt="Sakura Miku under a starry sky" />
+    <img src="./assets/miku-diamond-02.png" width="17%" alt="Sakura Miku in a flower garden" />
+    <img src="./assets/miku-diamond-03.png" width="17%" alt="Hatsune Miku in summer light" />
+    <img src="./assets/miku-diamond-04.png" width="17%" alt="Sakura Miku by the sea" />
+    <img src="./assets/miku-diamond-05.png" width="17%" alt="Sakura Miku among cherry blossoms" />
+  </p>
+  <p>🎵 &nbsp; 🎵 &nbsp; 🎵</p>
 </div>
 
 <br />
@@ -26,14 +36,6 @@
 
 <br />
 
-<div align="center">
-  <img src="./assets/miku-01.jpg" width="19%" alt="Sakura Miku under a starry sky" />
-  <img src="./assets/miku-02.jpg" width="19%" alt="Sakura Miku in a flower garden" />
-  <img src="./assets/miku-03.jpg" width="19%" alt="Hatsune Miku in summer light" />
-  <img src="./assets/miku-04.jpg" width="19%" alt="Sakura Miku by the sea" />
-  <img src="./assets/miku-05.jpg" width="19%" alt="Sakura Miku among cherry blossoms" />
-</div>
-
 <h2 align="center">About Me</h2>
 
 <p align="center">
@@ -50,6 +52,47 @@
 </div>
 
 <p align="center"><i>Stay curious. Build things. Learn in public.</i></p>
+
+<h2 align="center">LLM Ecosystem &amp; Tech Stack</h2>
+
+<div align="center">
+  <img src="./assets/tech-stack.svg" width="100%" alt="LLM ecosystem and technical stack" />
+</div>
+
+<details open>
+  <summary><b>🌱 Field guide</b> — 点击收起或展开每一组技术的用途</summary>
+  <br />
+  <table>
+    <tr>
+      <td><b>LLMs</b></td>
+      <td>持续关注 Claude、Gemini、DeepSeek、Qwen、Llama 与 Mistral 等主流模型生态。</td>
+    </tr>
+    <tr>
+      <td><b>Agents</b></td>
+      <td>用于 Agent 编排、工具调用与自动化工作流的 LangGraph、LangChain、LlamaIndex、CrewAI、MCP、Dify 与 n8n。</td>
+    </tr>
+    <tr>
+      <td><b>Inference</b></td>
+      <td>覆盖本地推理、模型服务与交互界面的 Ollama、vLLM、Hugging Face、OpenRouter、Gradio 与 Streamlit。</td>
+    </tr>
+    <tr>
+      <td><b>RAG / Data</b></td>
+      <td>面向向量检索、缓存与后端数据服务的 Qdrant、Milvus、pgvector、Redis 与 Supabase。</td>
+    </tr>
+    <tr>
+      <td><b>ML / RecSys</b></td>
+      <td>项目中使用 PyTorch、CatBoost、LightGBM、Pandas、RecBole 与 SASRec 完成建模和推荐系统实验。</td>
+    </tr>
+    <tr>
+      <td><b>Web / Data</b></td>
+      <td>使用 Vue 3、Django REST、JavaScript、MySQL 与 REST API 构建数据应用。</td>
+    </tr>
+    <tr>
+      <td><b>Lang / Ops</b></td>
+      <td>以 Python、Git、GitHub Actions、Kaggle 与 CI/CD 支撑开发、实验和持续集成。</td>
+    </tr>
+  </table>
+</details>
 
 <h2 align="center">Featured Projects</h2>
 
@@ -80,42 +123,11 @@
   </tr>
 </table>
 
-<h2 align="center">Tech Stack</h2>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/CatBoost-FFB7C5?style=for-the-badge&logoColor=263238" alt="CatBoost" />
-  <img src="https://img.shields.io/badge/LightGBM-39C5BB?style=for-the-badge&logoColor=white" alt="LightGBM" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <br />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
-</div>
-
-<h2 align="center">GitHub Overview</h2>
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Sunshine-1023&show_icons=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=39C5BB&text_color=718096&icon_color=FF8FA3" width="100%" alt="GitHub statistics" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunshine-1023&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=39C5BB&text_color=718096" width="100%" alt="Most used languages" />
-    </td>
-  </tr>
-</table>
-
-<!-- 3D CONTRIBUTION START
-<h2 align="center">3D Contribution</h2>
+<h2 align="center">Contribution Garden</h2>
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-season-animate.svg" width="98%" alt="3D contribution calendar" />
 </div>
-3D CONTRIBUTION END -->
 
 <div align="center">
   <img src="./assets/footer.svg" width="100%" alt="Miku-themed footer decoration" />

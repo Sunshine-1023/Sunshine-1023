@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+  <defs>
+    <style>
+      .category { font: 600 18px Inter, Arial, sans-serif; letter-spacing: 0; fill: #7b8189; }
+      .chip { fill: #fffdfd; stroke-width: 2; }
+      .chip-text { font: 700 18px Inter, Arial, sans-serif; letter-spacing: 0; }
+      .note { font: 600 13px Inter, Arial, sans-serif; letter-spacing: 0; fill: #9a9da3; }
+    </style>
+  </defs>
+
+  <text x="1160" y="18" text-anchor="end" class="note">BUILD · LEARN · EXPLORE</text>
+
+  <!-- LLMs -->
+  <g transform="translate(34 55)" fill="#ef6a4b">
+    <circle cx="-7" cy="-7" r="6"/><circle cx="7" cy="-7" r="6"/>
+    <circle cx="-7" cy="7" r="6"/><circle cx="7" cy="7" r="6"/><circle r="3"/>
+  </g>
+  <text x="60" y="62" class="category">LLMs</text>
+  <g stroke="#ef6a4b" fill="#ef6a4b">
+    <rect x="190" y="33" width="130" height="44" rx="22" class="chip"/><circle cx="210" cy="55" r="5"/><text x="225" y="62" class="chip-text">Claude</text>
+    <rect x="332" y="33" width="130" height="44" rx="22" class="chip"/><circle cx="352" cy="55" r="5"/><text x="367" y="62" class="chip-text">Gemini</text>
+    <rect x="474" y="33" width="150" height="44" rx="22" class="chip"/><circle cx="494" cy="55" r="5"/><text x="509" y="62" class="chip-text">DeepSeek</text>
+    <rect x="636" y="33" width="105" height="44" rx="22" class="chip" stroke="#7da267"/><circle cx="656" cy="55" r="5" fill="#7da267"/><text x="671" y="62" class="chip-text" fill="#6f925d">Qwen</text>
+    <rect x="753" y="33" width="120" height="44" rx="22" class="chip"/><circle cx="773" cy="55" r="5"/><text x="788" y="62" class="chip-text">Llama</text>
+    <rect x="885" y="33" width="130" height="44" rx="22" class="chip"/><circle cx="905" cy="55" r="5"/><text x="920" y="62" class="chip-text">Mistral</text>
+  </g>
+
+  <!-- Agents -->
+  <g transform="translate(34 125)" fill="#7da267">
+    <circle cx="-7" cy="-7" r="6"/><circle cx="7" cy="-7" r="6"/>
+    <circle cx="-7" cy="7" r="6"/><circle cx="7" cy="7" r="6"/><circle r="3"/>
+  </g>
+  <text x="60" y="132" class="category">AGENTS</text>
+  <g stroke="#ef765a" fill="#df654b">
+    <rect x="190" y="103" width="145" height="44" rx="22" class="chip"/><circle cx="210" cy="125" r="5"/><text x="225" y="132" class="chip-text">LangGraph</text>
+    <rect x="347" y="103" width="145" height="44" rx="22" class="chip"/><circle cx="367" cy="125" r="5"/><text x="382" y="132" class="chip-text">LangChain</text>
+    <rect x="504" y="103" width="145" height="44" rx="22" class="chip"/><circle cx="524" cy="125" r="5"/><text x="539" y="132" class="chip-text">LlamaIndex</text>
+    <rect x="661" y="103" width="115" height="44" rx="22" class="chip" stroke="#7da267"/><circle cx="681" cy="125" r="5" fill="#7da267"/><text x="696" y="132" class="chip-text" fill="#6f925d">CrewAI</text>
+    <rect x="788" y="103" width="90" height="44" rx="22" class="chip"/><circle cx="808" cy="125" r="5"/><text x="823" y="132" class="chip-text">MCP</text>
+    <rect x="890" y="103" width="80" height="44" rx="22" class="chip"/><circle cx="910" cy="125" r="5"/><text x="925" y="132" class="chip-text">Dify</text>
+    <rect x="982" y="103" width="80" height="44" rx="22" class="chip"/><circle cx="1002" cy="125" r="5"/><text x="1017" y="132" class="chip-text">n8n</text>
+  </g>
+
+  <!-- Inference -->
+  <g transform="translate(34 195)" fill="#e8a23b">
+    <circle cx="-7" cy="-7" r="6"/><circle cx="7" cy="-7" r="6"/>
+    <circle cx="-7" cy="7" r="6"/><circle cx="7" cy="7" r="6"/><circle r="3"/>
+  </g>
+  <text x="60" y="202" class="category">INFERENCE</text>
+  <g stroke="#ef765a" fill="#df654b">
+    <rect x="190" y="173" width="120" height="44" rx="22" class="chip"/><circle cx="210" cy="195" r="5"/><text x="225" y="202" class="chip-text">Ollama</text>
+    <rect x="322" y="173" width="100" height="44" rx="22" class="chip"/><circle cx="342" cy="195" r="5"/><text x="357" y="202" class="chip-text">vLLM</text>
+    <rect x="434" y="173" width="165" height="44" rx="22" class="chip"/><circle cx="454" cy="195" r="5"/><text x="469" y="202" class="chip-text">Hugging Face</text>
+    <rect x="611" y="173" width="150" height="44" rx="22" class="chip" stroke="#7da267"/><circle cx="631" cy="195" r="5" fill="#7da267"/><text x="646" y="202" class="chip-text" fill="#6f925d">OpenRouter</text>
+    <rect x="773" y="173" width="110" height="44" rx="22" class="chip"/><circle cx="793" cy="195" r="5"/><text x="808" y="202" class="chip-text">Gradio</text>
+    <rect x="895" y="173" width="140" height="44" rx="22" class="chip"/><circle cx="915" cy="195" r="5"/><text x="930" y="202" class="chip-text">Streamlit</text>
+  </g>
+
+  <!-- RAG / Data -->
+  <g transform="translate(34 265)" fill="#df5d98">
+    <circle cx="-7" cy="-7" r="6"/><circle cx="7" cy="-7" r="6"/>
+    <circle cx="-7" cy="7" r="6"/><circle cx="7" cy="7" r="6"/><circle r="3"/>
+  </g>
+  <text x="60" y="272" class="category">RAG / DATA</text>
+  <g stroke="#e68472" fill="#d96750">
+    <rect x="190" y="243" width="120" height="44" rx="22" class="chip"/><circle cx="210" cy="265" r="5"/><text x="225" y="272" class="chip-text">Qdrant</text>
+    <rect x="322" y="243" width="110" height="44" rx="22" class="chip"/><circle cx="342" cy="265" r="5"/><text x="357" y="272" class="chip-text">Milvus</text>
+    <rect x="444" y="243" width="130" height="44" rx="22" class="chip"/><circle cx="464" cy="265" r="5"/><text x="479" y="272" class="chip-text">pgvector</text>
+    <rect x="586" y="243" width="100" height="44" rx="22" class="chip" stroke="#7da267"/><circle cx="606" cy="265" r="5" fill="#7da267"/><text x="621" y="272" class="chip-text" fill="#6f925d">Redis</text>
+    <rect x="698" y="243" width="140" height="44" rx="22" class="chip"/><circle cx="718" cy="265" r="5"/><text x="733" y="272" class="chip-text">Supabase</text>
+  </g>
+
+  <!-- ML / RecSys -->
+  <g transform="translate(34 335)" fill="#7b68b4">
+    <circle cx="-7" cy="-7" r="6"/><circle cx="7" cy="-7" r="6"/>
+    <circle cx="-7" cy="7" r="6"/><circle cx="7" cy="7" r="6"/><circle r="3"/>
+  </g>
+  <text x="60" y="342" class="category">ML / RECSYS</text>
+  <g stroke="#8c79c1" fill="#745fac">
+    <rect x="190" y="313" width="120" height="44" rx="22" class="chip"/><circle cx="210" cy="335" r="5"/><text x="225" y="342" class="chip-text">PyTorch</text>
+    <rect x="322" y="313" width="130" height="44" rx="22" class="chip"/><circle cx="342" cy="335" r="5"/><text x="357" y="342" class="chip-text">CatBoost</text>
+    <rect x="464" y="313" width="140" height="44" rx="22" class="chip"/><circle cx="484" cy="335" r="5"/><text x="499" y="342" class="chip-text">LightGBM</text>
+    <rect x="616" y="313" width="110" height="44" rx="22" class="chip"/><circle cx="636" cy="335" r="5"/><text x="651" y="342" class="chip-text">Pandas</text>
+    <rect x="738" y="313" width="120" height="44" rx="22" class="chip"/><circle cx="758" cy="335" r="5"/><text x="773" y="342" class="chip-text">RecBole</text>
+    <rect x="870" y="313" width="110" height="44" rx="22" class="chip"/><circle cx="890" cy="335" r="5"/><text x="905" y="342" class="chip-text">SASRec</text>
+  </g>
+
+  <!-- Web / Data -->
+  <g transform="translate(34 405)" fill="#39c5bb">
+    <circle cx="-7" cy="-7" r="6"/><circle cx="7" cy="-7" r="6"/>
+    <circle cx="-7" cy="7" r="6"/><circle cx="7" cy="7" r="6"/><circle r="3"/>
+  </g>
+  <text x="60" y="412" class="category">WEB / DATA</text>
+  <g stroke="#4cbeb5" fill="#329e97">
+    <rect x="190" y="383" width="110" height="44" rx="22" class="chip"/><circle cx="210" cy="405" r="5"/><text x="225" y="412" class="chip-text">Vue 3</text>
+    <rect x="312" y="383" width="145" height="44" rx="22" class="chip"/><circle cx="332" cy="405" r="5"/><text x="347" y="412" class="chip-text">Django REST</text>
+    <rect x="469" y="383" width="140" height="44" rx="22" class="chip"/><circle cx="489" cy="405" r="5"/><text x="504" y="412" class="chip-text">JavaScript</text>
+    <rect x="621" y="383" width="110" height="44" rx="22" class="chip"/><circle cx="641" cy="405" r="5"/><text x="656" y="412" class="chip-text">MySQL</text>
+    <rect x="743" y="383" width="130" height="44" rx="22" class="chip"/><circle cx="763" cy="405" r="5"/><text x="778" y="412" class="chip-text">REST APIs</text>
+  </g>
+
+  <!-- Languages / Ops -->
+  <g transform="translate(34 475)" fill="#7769b5">
+    <circle cx="-7" cy="-7" r="6"/><circle cx="7" cy="-7" r="6"/>
+    <circle cx="-7" cy="7" r="6"/><circle cx="7" cy="7" r="6"/><circle r="3"/>
+  </g>
+  <text x="60" y="482" class="category">LANG / OPS</text>
+  <g stroke="#897bc0" fill="#725fac">
+    <rect x="190" y="453" width="110" height="44" rx="22" class="chip"/><circle cx="210" cy="475" r="5"/><text x="225" y="482" class="chip-text">Python</text>
+    <rect x="312" y="453" width="90" height="44" rx="22" class="chip"/><circle cx="332" cy="475" r="5"/><text x="347" y="482" class="chip-text">Git</text>
+    <rect x="414" y="453" width="165" height="44" rx="22" class="chip"/><circle cx="434" cy="475" r="5"/><text x="449" y="482" class="chip-text">GitHub Actions</text>
+    <rect x="591" y="453" width="110" height="44" rx="22" class="chip"/><circle cx="611" cy="475" r="5"/><text x="626" y="482" class="chip-text">Kaggle</text>
+    <rect x="713" y="453" width="100" height="44" rx="22" class="chip"/><circle cx="733" cy="475" r="5"/><text x="748" y="482" class="chip-text">CI/CD</text>
+  </g>
+</svg>

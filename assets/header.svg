@@ -1,53 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#edfdfb" />
-      <stop offset="0.52" stop-color="#fff7fa" />
-      <stop offset="1" stop-color="#e8f8ff" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB7C5;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#FFD1DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8E8E3;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#39C5BB" />
-      <stop offset="0.5" stop-color="#74D7D0" />
-      <stop offset="1" stop-color="#FF8FA3" />
-    </linearGradient>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.5" fill="#39C5BB" opacity="0.16" />
-    </pattern>
-    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
-      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#39C5BB" flood-opacity="0.16" />
-    </filter>
+    <radialGradient id="p1">
+      <stop offset="0%" style="stop-color:#FFB7C5;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FF8FA3;stop-opacity:0.3" />
+    </radialGradient>
+    <radialGradient id="p2">
+      <stop offset="0%" style="stop-color:#FFD1DC;stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:#FFB7C5;stop-opacity:0.2" />
+    </radialGradient>
   </defs>
 
-  <rect width="1200" height="250" rx="18" fill="url(#bg)" />
-  <rect width="1200" height="250" rx="18" fill="url(#dots)" />
-  <rect x="20" y="20" width="1160" height="210" rx="13" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.65" />
+  <rect x="0" y="0" width="1200" height="300" fill="url(#bg)" />
 
-  <g fill="#FF8FA3" opacity="0.58">
-    <ellipse cx="88" cy="52" rx="20" ry="8" transform="rotate(-28 88 52)" />
-    <ellipse cx="132" cy="83" rx="16" ry="6" transform="rotate(22 132 83)" />
-    <ellipse cx="1068" cy="62" rx="18" ry="7" transform="rotate(-18 1068 62)" />
-    <ellipse cx="1112" cy="94" rx="21" ry="8" transform="rotate(28 1112 94)" />
-    <ellipse cx="92" cy="194" rx="17" ry="6" transform="rotate(18 92 194)" />
-    <ellipse cx="1092" cy="188" rx="17" ry="6" transform="rotate(-22 1092 188)" />
+  <path d="M 70,60 Q 88,36 105,55 Q 93,78 70,60 Z" fill="url(#p1)" transform="rotate(-30,88,55)" />
+  <path d="M 100,82 Q 118,55 135,78 Q 122,100 100,82 Z" fill="url(#p2)" transform="rotate(-15,118,78)" />
+  <path d="M 1110,35 Q 1128,12 1142,32 Q 1130,55 1110,35 Z" fill="url(#p1)" transform="rotate(25,1126,32)" />
+  <path d="M 1082,58 Q 1100,35 1115,55 Q 1102,78 1082,58 Z" fill="url(#p2)" transform="rotate(40,1098,55)" />
+  <path d="M 60,240 Q 80,218 95,235 Q 83,258 60,240 Z" fill="url(#p1)" transform="rotate(-20,78,235)" />
+  <path d="M 92,222 Q 112,200 125,220 Q 112,240 92,222 Z" fill="url(#p2)" transform="rotate(-10,108,220)" />
+  <path d="M 1110,250 Q 1130,228 1145,248 Q 1132,268 1110,250 Z" fill="url(#p1)" transform="rotate(15,1128,248)" />
+  <path d="M 1085,268 Q 1108,248 1120,268 Q 1105,288 1085,268 Z" fill="url(#p2)" transform="rotate(35,1102,268)" />
+
+  <g transform="translate(230,35) scale(0.4)" opacity="0.55">
+    <polygon points="200,40 205,55 220,55 208,65 213,80 200,70 187,80 192,65 180,55 195,55" fill="#FFD700" />
+  </g>
+  <g transform="translate(920,30) scale(0.35)" opacity="0.4">
+    <polygon points="200,40 205,55 220,55 208,65 213,80 200,70 187,80 192,65 180,55 195,55" fill="#FFD700" />
+  </g>
+  <g transform="translate(130,140) scale(0.3)" opacity="0.4">
+    <polygon points="200,40 205,55 220,55 208,65 213,80 200,70 187,80 192,65 180,55 195,55" fill="#FFD700" />
+  </g>
+  <g transform="translate(1080,140) scale(0.3)" opacity="0.4">
+    <polygon points="200,40 205,55 220,55 208,65 213,80 200,70 187,80 192,65 180,55 195,55" fill="#FFD700" />
   </g>
 
-  <g transform="translate(162 65)" stroke="#39C5BB" stroke-width="3" fill="#39C5BB" opacity="0.72">
-    <line x1="0" y1="0" x2="0" y2="54" />
-    <path d="M0 0 Q42 6 35 31 Q23 18 0 18 Z" />
-    <ellipse cx="-10" cy="56" rx="14" ry="9" transform="rotate(-18 -10 56)" />
-  </g>
-  <g transform="translate(1038 132)" stroke="#FF8FA3" stroke-width="3" fill="#FF8FA3" opacity="0.68">
-    <line x1="0" y1="0" x2="0" y2="49" />
-    <path d="M0 0 Q38 5 32 27 Q20 16 0 16 Z" />
-    <ellipse cx="-9" cy="51" rx="13" ry="8" transform="rotate(-18 -9 51)" />
-  </g>
+  <text x="600" y="130" text-anchor="middle" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="52" font-weight="bold" fill="#FFFFFF" stroke="#FF8FA3" stroke-width="1.5">
+    ✨ 欢迎来到 Sunshine 的主页 ✨
+  </text>
 
-  <g filter="url(#shadow)">
-    <text x="600" y="110" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="0" fill="#263238">SUNSHINE-1023</text>
-    <rect x="420" y="132" width="360" height="5" rx="2.5" fill="url(#accent)" />
-    <text x="600" y="176" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="0" fill="#52706f">UNDERGRADUATE | APPLIED ML | RECOMMENDER SYSTEMS</text>
-  </g>
+  <text x="600" y="185" text-anchor="middle" font-family="Arial,'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#FFFFFF" opacity="0.85">
+    每一个代码都是一首歌，每一次提交都是一次心跳
+  </text>
 
-  <circle cx="397" cy="134.5" r="4" fill="#FF8FA3" />
-  <circle cx="803" cy="134.5" r="4" fill="#39C5BB" />
+  <line x1="60" y1="278" x2="1140" y2="278" stroke="#39C5BB" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
+  <circle cx="600" cy="278" r="6" fill="#39C5BB" opacity="0.8" />
+  <circle cx="570" cy="278" r="3" fill="#39C5BB" opacity="0.5" />
+  <circle cx="630" cy="278" r="3" fill="#39C5BB" opacity="0.5" />
 </svg>

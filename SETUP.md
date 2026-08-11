@@ -15,8 +15,9 @@ Sunshine-1023/
 ├── assets/
 │   ├── header.svg
 │   ├── footer.svg
-│   ├── miku-hero-wide.jpg
+│   ├── tech-stack.svg
 │   ├── miku-01.jpg ... miku-05.jpg
+│   ├── miku-diamond-01.png ... miku-diamond-05.png
 │   └── SOURCES.md
 └── .github/
     └── workflows/
@@ -43,12 +44,7 @@ git push origin main
 
 ## 3D 贡献图
 
-`.github/workflows/profile-3d.yml` 会每天更新 3D 贡献图。首次使用时，在 GitHub 仓库的 **Actions** 页面手动运行一次 `GitHub-Profile-3D-Contrib`。
-
-生成成功后，在 `README.md` 中删除下面两个注释标记即可显示：
-
-- `<!-- 3D CONTRIBUTION START`
-- `3D CONTRIBUTION END -->`
+主页已经直接显示 `profile-3d-contrib/profile-season-animate.svg`。`.github/workflows/profile-3d.yml` 会每天更新这张图；如需立即刷新，可在 GitHub 仓库的 **Actions** 页面手动运行 `GitHub-Profile-3D-Contrib`。
 
 ## 主页建议
 
