@@ -1,34 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
-  <title id="title">Sunshine GitHub profile banner</title>
-  <desc id="desc">A dark technology-themed banner for an undergraduate student exploring applied machine learning and full-stack development.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07111f"/>
-      <stop offset=".52" stop-color="#102a56"/>
-      <stop offset="1" stop-color="#4c1d95"/>
+      <stop offset="0" stop-color="#edfdfb" />
+      <stop offset="0.52" stop-color="#fff7fa" />
+      <stop offset="1" stop-color="#e8f8ff" />
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity=".8"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39C5BB" />
+      <stop offset="0.5" stop-color="#74D7D0" />
+      <stop offset="1" stop-color="#FF8FA3" />
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#39C5BB" opacity="0.16" />
+    </pattern>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#39C5BB" flood-opacity="0.16" />
+    </filter>
   </defs>
-  <rect width="1000" height="240" rx="22" fill="url(#bg)"/>
-  <circle cx="800" cy="60" r="150" fill="url(#glow)" filter="url(#blur)" opacity=".55"/>
-  <circle cx="155" cy="240" r="170" fill="#7c3aed" opacity=".18" filter="url(#blur)"/>
-  <g fill="none" stroke="#93c5fd" stroke-opacity=".18">
-    <path d="M0 55H1000M0 120H1000M0 185H1000"/>
-    <path d="M95 0V240M250 0V240M405 0V240M560 0V240M715 0V240M870 0V240"/>
+
+  <rect width="1200" height="250" rx="18" fill="url(#bg)" />
+  <rect width="1200" height="250" rx="18" fill="url(#dots)" />
+  <rect x="20" y="20" width="1160" height="210" rx="13" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.65" />
+
+  <g fill="#FF8FA3" opacity="0.58">
+    <ellipse cx="88" cy="52" rx="20" ry="8" transform="rotate(-28 88 52)" />
+    <ellipse cx="132" cy="83" rx="16" ry="6" transform="rotate(22 132 83)" />
+    <ellipse cx="1068" cy="62" rx="18" ry="7" transform="rotate(-18 1068 62)" />
+    <ellipse cx="1112" cy="94" rx="21" ry="8" transform="rotate(28 1112 94)" />
+    <ellipse cx="92" cy="194" rx="17" ry="6" transform="rotate(18 92 194)" />
+    <ellipse cx="1092" cy="188" rx="17" ry="6" transform="rotate(-22 1092 188)" />
   </g>
-  <g transform="translate(755 42)" fill="none" stroke-linecap="round">
-    <circle cx="82" cy="78" r="54" stroke="#60a5fa" stroke-width="2"/>
-    <circle cx="82" cy="78" r="28" stroke="#a78bfa" stroke-width="2"/>
-    <path d="M5 79h44m66 0h44M82 1v43m0 68v43" stroke="#e0f2fe" stroke-width="3"/>
-    <circle cx="82" cy="78" r="7" fill="#f8fafc" stroke="none"/>
-    <circle cx="49" cy="79" r="5" fill="#38bdf8" stroke="none"/>
-    <circle cx="115" cy="79" r="5" fill="#a78bfa" stroke="none"/>
+
+  <g transform="translate(162 65)" stroke="#39C5BB" stroke-width="3" fill="#39C5BB" opacity="0.72">
+    <line x1="0" y1="0" x2="0" y2="54" />
+    <path d="M0 0 Q42 6 35 31 Q23 18 0 18 Z" />
+    <ellipse cx="-10" cy="56" rx="14" ry="9" transform="rotate(-18 -10 56)" />
   </g>
-  <text x="68" y="102" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="54" font-weight="700">Hi, I'm Sunshine</text>
-  <text x="70" y="148" fill="#bae6fd" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="21">Undergraduate Student · Applied ML · Full-Stack</text>
-  <text x="70" y="187" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" letter-spacing="2">CAMPUS · CODE · CREATE</text>
+  <g transform="translate(1038 132)" stroke="#FF8FA3" stroke-width="3" fill="#FF8FA3" opacity="0.68">
+    <line x1="0" y1="0" x2="0" y2="49" />
+    <path d="M0 0 Q38 5 32 27 Q20 16 0 16 Z" />
+    <ellipse cx="-9" cy="51" rx="13" ry="8" transform="rotate(-18 -9 51)" />
+  </g>
+
+  <g filter="url(#shadow)">
+    <text x="600" y="110" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="0" fill="#263238">SUNSHINE-1023</text>
+    <rect x="420" y="132" width="360" height="5" rx="2.5" fill="url(#accent)" />
+    <text x="600" y="176" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="0" fill="#52706f">UNDERGRADUATE | APPLIED ML | RECOMMENDER SYSTEMS</text>
+  </g>
+
+  <circle cx="397" cy="134.5" r="4" fill="#FF8FA3" />
+  <circle cx="803" cy="134.5" r="4" fill="#39C5BB" />
 </svg>
