@@ -36,22 +36,27 @@
 
 <br />
 
-<h2 align="center">About Me</h2>
+<h2>About Me · 关于我</h2>
 
-<p align="center">
-  我是一名在读大学生，正在学习应用机器学习、推荐系统与全栈开发。<br />
-  喜欢把数据、模型和工程实现连接起来，也用项目记录自己的成长。
+<h3>在读大学生 · 应用机器学习学习者 · 推荐系统探索者</h3>
+
+- 🎓 目前是一名<b>在读大学生</b>，持续学习机器学习、推荐系统与全栈开发。
+- 🧠 专注于<b>应用机器学习</b>，关注可靠评估、表格建模和深度学习实践。
+- 🧩 喜欢把数据、模型与工程实现连接起来，构建可复现的实验和数据应用。
+- 🌱 通过开源项目与 Kaggle 记录成长，也在探索从模型到产品的完整工作流。
+
+<h3>代码助手</h3>
+
+我喜欢借助 AI 完成头脑风暴、代码解释、调试和文档整理，让想法更快落地。
+
+日常使用：<b>Codex、Claude Code、ChatGPT、Gemini</b>。
+
+<p>
+  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Codex" />
+  <img src="https://img.shields.io/badge/Claude_Code-D99675?style=flat-square&amp;logo=anthropic&amp;logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&amp;logo=googlegemini&amp;logoColor=white" alt="Gemini" />
 </p>
-
-<div align="center">
-  <p>
-    <b>Learning</b> &nbsp; Recommender Systems · Deep Learning · Reliable Evaluation<br />
-    <b>Building</b> &nbsp; Reproducible ML Pipelines · Data Applications · REST APIs<br />
-    <b>Exploring</b> &nbsp; Open Source · Kaggle · Model-to-Product Workflows
-  </p>
-</div>
-
-<p align="center"><i>Stay curious. Build things. Learn in public.</i></p>
 
 <h2 align="center">LLM Ecosystem &amp; Tech Stack</h2>
 
