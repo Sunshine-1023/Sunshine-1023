@@ -64,11 +64,11 @@
   <img src="./assets/tech-stack.svg" width="100%" alt="LLM ecosystem and technical stack" />
 </div>
 
-<details open>
-  <summary><b>🌱 Field guide</b> — 点击收起或展开</summary>
+<details>
+  <summary><b>🌱 What I Build · 我能构建什么</b> — 点击展开能力与项目实践</summary>
   <br />
   <div align="center">
-    <img src="./assets/field-guide.svg" width="100%" alt="Field guide for the LLM ecosystem and technical stack" />
+    <img src="./assets/field-guide.svg" width="100%" alt="What I build: capabilities and project practice" />
   </div>
 </details>
 

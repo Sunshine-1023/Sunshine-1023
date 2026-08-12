@@ -1,98 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" width="1200" height="740">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="1200" height="470">
   <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffafb" />
+      <stop offset="1" stop-color="#f7fffe" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#765d68" flood-opacity="0.09" />
+    </filter>
     <style>
-      .title { font: 700 30px Inter, Arial, sans-serif; letter-spacing: 0; fill: #26282c; }
-      .subtitle { font: 500 16px Inter, Arial, sans-serif; letter-spacing: 0; fill: #8a8f97; }
-      .category { font: 700 17px Inter, Arial, sans-serif; letter-spacing: 0; }
-      .names { font: 700 18px Inter, Arial, sans-serif; letter-spacing: 0; }
-      .description { font: 500 15px Inter, "PingFang SC", "Microsoft YaHei", sans-serif; letter-spacing: 0; fill: #777d86; }
-      .divider { stroke: #f1dfdc; stroke-width: 1; }
+      .eyebrow { font: 700 13px Inter, Arial, sans-serif; letter-spacing: 2px; }
+      .title { font: 750 25px Inter, "PingFang SC", sans-serif; }
+      .body { font: 500 16px Inter, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #707780; }
+      .project { font: 650 14px Inter, "PingFang SC", sans-serif; }
     </style>
   </defs>
 
-  <rect x="18" y="10" width="1164" height="720" rx="18" fill="#fffafb" stroke="#f0c7bf" stroke-width="2" />
+  <rect x="10" y="10" width="1180" height="450" rx="22" fill="url(#panel)" stroke="#f1c9c1" stroke-width="2" />
+  <text x="48" y="55" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#a4868d">WHAT I BUILD · 我能构建什么</text>
+  <text x="1150" y="55" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="600" fill="#aaa1a5">FROM IDEA TO WORKING PROJECT</text>
 
-  <g transform="translate(58 50)" fill="none" stroke="#6ea45e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M0 18 C3 8 10 1 20 -2" />
-    <path d="M11 8 C17 0 27 -1 31 0 C29 9 21 14 12 13" fill="#8fbd72" stroke="none" />
-    <path d="M4 13 C0 6 -8 4 -13 6 C-10 14 -3 18 5 18" fill="#b4d985" stroke="none" />
+  <!-- LLM applications -->
+  <g filter="url(#shadow)">
+    <rect x="42" y="82" width="548" height="158" rx="18" fill="#fff8f6" stroke="#efb4a6" stroke-width="2" />
+    <rect x="42" y="82" width="8" height="158" rx="4" fill="#ef6a4b" />
   </g>
-  <text x="108" y="59" class="title">Field guide</text>
-  <text x="285" y="58" class="subtitle">A quick map of the models, tools and engineering stack above</text>
-  <g transform="translate(1085 50)">
-    <circle cx="0" cy="0" r="6" fill="#ef6a4b" />
-    <circle cx="22" cy="0" r="6" fill="#7da267" />
-    <circle cx="44" cy="0" r="6" fill="#df5d98" />
-    <circle cx="66" cy="0" r="6" fill="#7769b5" />
+  <circle cx="92" cy="126" r="22" fill="#ffe3dc" />
+  <g transform="translate(80 114)" fill="none" stroke="#d85b40" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1" y="4" width="22" height="16" rx="5" /><line x1="12" y1="4" x2="12" y2="0" /><circle cx="12" cy="0" r="1.5" fill="#d85b40" stroke="none" /><circle cx="8" cy="12" r="1.5" fill="#d85b40" stroke="none" /><circle cx="16" cy="12" r="1.5" fill="#d85b40" stroke="none" /><line x1="8" y1="17" x2="16" y2="17" />
   </g>
-  <line x1="52" y1="86" x2="1148" y2="86" class="divider" />
+  <text x="128" y="116" class="eyebrow" fill="#d85b40">LLM APPLICATIONS</text>
+  <text x="128" y="148" class="title" fill="#2b2e32">LLM 应用与智能工作流</text>
+  <text x="78" y="184" class="body">模型调用 · Prompt 设计 · RAG · Agent 编排</text>
+  <text x="78" y="215" class="project" fill="#d85b40">方向：把模型能力连接到真实任务与工具</text>
 
-  <!-- LLMs -->
-  <g transform="translate(64 128)" fill="#ef6a4b">
-    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
-    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  <!-- ML / recommendation -->
+  <g filter="url(#shadow)">
+    <rect x="610" y="82" width="548" height="158" rx="18" fill="#faf8ff" stroke="#c8bde9" stroke-width="2" />
+    <rect x="610" y="82" width="8" height="158" rx="4" fill="#7b68b4" />
   </g>
-  <text x="92" y="134" class="category" fill="#dc6045">LLMs</text>
-  <text x="245" y="124" class="names" fill="#dc6045">Claude · Gemini · DeepSeek · Qwen · Llama · Mistral</text>
-  <text x="245" y="151" class="description">主流闭源与开源模型生态，关注推理、代码、多模态能力和本地部署选择。</text>
-  <line x1="52" y1="176" x2="1148" y2="176" class="divider" />
+  <circle cx="660" cy="126" r="22" fill="#e9e2fb" />
+  <g transform="translate(648 113)" fill="none" stroke="#705da8" stroke-width="3" stroke-linecap="round">
+    <line x1="2" y1="24" x2="2" y2="15" /><line x1="12" y1="24" x2="12" y2="7" /><line x1="22" y1="24" x2="22" y2="1" />
+  </g>
+  <text x="696" y="116" class="eyebrow" fill="#705da8">ML &amp; RECOMMENDATION</text>
+  <text x="696" y="148" class="title" fill="#2b2e32">机器学习与推荐系统</text>
+  <text x="646" y="184" class="body">表格建模 · 深度学习 · 离线评估 · 序列推荐</text>
+  <text x="646" y="215" class="project" fill="#705da8">实践：手机成瘾预测 · FashionRec Transformer</text>
 
-  <!-- Agents -->
-  <g transform="translate(64 218)" fill="#7da267">
-    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
-    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  <!-- Full stack -->
+  <g filter="url(#shadow)">
+    <rect x="42" y="260" width="548" height="158" rx="18" fill="#f6fffd" stroke="#a9ded9" stroke-width="2" />
+    <rect x="42" y="260" width="8" height="158" rx="4" fill="#39c5bb" />
   </g>
-  <text x="92" y="224" class="category" fill="#6f925d">AGENTS</text>
-  <text x="245" y="214" class="names" fill="#6f925d">LangGraph · LangChain · LlamaIndex · CrewAI · MCP · Dify · n8n</text>
-  <text x="245" y="241" class="description">用于 Agent 编排、知识连接、工具调用与可视化自动化工作流。</text>
-  <line x1="52" y1="266" x2="1148" y2="266" class="divider" />
+  <circle cx="92" cy="304" r="22" fill="#d9f6f2" />
+  <g transform="translate(80 292)" fill="none" stroke="#249f97" stroke-width="2.2" stroke-linecap="round">
+    <circle cx="12" cy="12" r="11" /><ellipse cx="12" cy="12" rx="5" ry="11" /><line x1="1" y1="12" x2="23" y2="12" /><path d="M3.5 6.5 H20.5 M3.5 17.5 H20.5" />
+  </g>
+  <text x="128" y="294" class="eyebrow" fill="#249f97">FULL-STACK DEVELOPMENT</text>
+  <text x="128" y="326" class="title" fill="#2b2e32">全栈开发与数据应用</text>
+  <text x="78" y="362" class="body">前后端分离 · REST API · 关系型数据库 · 业务查询</text>
+  <text x="78" y="393" class="project" fill="#249f97">实践：Well Cost Management 数据管理系统</text>
 
-  <!-- Inference -->
-  <g transform="translate(64 308)" fill="#e8a23b">
-    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
-    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  <!-- Engineering -->
+  <g filter="url(#shadow)">
+    <rect x="610" y="260" width="548" height="158" rx="18" fill="#fbfaff" stroke="#c9c0e9" stroke-width="2" />
+    <rect x="610" y="260" width="8" height="158" rx="4" fill="#7769b5" />
   </g>
-  <text x="92" y="314" class="category" fill="#d9922c">INFERENCE</text>
-  <text x="245" y="304" class="names" fill="#d9922c">Ollama · vLLM · Hugging Face · OpenRouter · Gradio · Streamlit</text>
-  <text x="245" y="331" class="description">覆盖本地推理、模型服务、统一接口以及快速搭建交互式演示。</text>
-  <line x1="52" y1="356" x2="1148" y2="356" class="divider" />
-
-  <!-- RAG / Data -->
-  <g transform="translate(64 398)" fill="#df5d98">
-    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
-    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
+  <circle cx="660" cy="304" r="22" fill="#e8e3f8" />
+  <g transform="translate(648 292)" fill="none" stroke="#6959a8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="4" /><path d="M12 1 V4 M12 20 V23 M1 12 H4 M20 12 H23 M4.2 4.2 L6.3 6.3 M17.7 17.7 L19.8 19.8 M19.8 4.2 L17.7 6.3 M6.3 17.7 L4.2 19.8" /><circle cx="12" cy="12" r="9" />
   </g>
-  <text x="92" y="404" class="category" fill="#cf4f88">RAG / DATA</text>
-  <text x="245" y="394" class="names" fill="#cf4f88">Qdrant · Milvus · pgvector · Redis · Supabase</text>
-  <text x="245" y="421" class="description">用于向量检索、语义搜索、缓存和应用后端数据服务。</text>
-  <line x1="52" y1="446" x2="1148" y2="446" class="divider" />
-
-  <!-- ML / RecSys -->
-  <g transform="translate(64 488)" fill="#7b68b4">
-    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
-    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
-  </g>
-  <text x="92" y="494" class="category" fill="#705da8">ML / RECSYS</text>
-  <text x="245" y="484" class="names" fill="#705da8">PyTorch · CatBoost · LightGBM · Pandas · RecBole · SASRec</text>
-  <text x="245" y="511" class="description">支撑表格建模、深度学习、离线评估与序列推荐系统实验。</text>
-  <line x1="52" y1="536" x2="1148" y2="536" class="divider" />
-
-  <!-- Web / Data -->
-  <g transform="translate(64 578)" fill="#39c5bb">
-    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
-    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
-  </g>
-  <text x="92" y="584" class="category" fill="#289f98">WEB / DATA</text>
-  <text x="245" y="574" class="names" fill="#289f98">Vue 3 · Django REST · JavaScript · MySQL · REST APIs</text>
-  <text x="245" y="601" class="description">构建前后端分离的数据应用、业务接口与关系型数据管理系统。</text>
-  <line x1="52" y1="626" x2="1148" y2="626" class="divider" />
-
-  <!-- Languages / Ops -->
-  <g transform="translate(64 668)" fill="#7769b5">
-    <circle cx="-6" cy="-6" r="5"/><circle cx="6" cy="-6" r="5"/>
-    <circle cx="-6" cy="6" r="5"/><circle cx="6" cy="6" r="5"/><circle r="2.5"/>
-  </g>
-  <text x="92" y="674" class="category" fill="#6959a8">LANG / OPS</text>
-  <text x="245" y="664" class="names" fill="#6959a8">Python · Git · GitHub Actions · Kaggle · CI/CD</text>
-  <text x="245" y="691" class="description">覆盖日常开发、实验管理、版本控制和自动化质量检查。</text>
+  <text x="696" y="294" class="eyebrow" fill="#6959a8">ENGINEERING PRACTICE</text>
+  <text x="696" y="326" class="title" fill="#2b2e32">工程实践与可复现实验</text>
+  <text x="646" y="362" class="body">版本控制 · CI/CD · 自动化测试 · 配置化实验</text>
+  <text x="646" y="393" class="project" fill="#6959a8">目标：让每个项目都清晰、可靠、可重复运行</text>
 </svg>
