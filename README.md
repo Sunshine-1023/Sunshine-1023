@@ -52,10 +52,10 @@
 日常使用：<b>Codex、Claude Code、ChatGPT、Gemini</b>。
 
 <p>
-  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/Claude_Code-D99675?style=flat-square&amp;logo=anthropic&amp;logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&amp;logo=googlegemini&amp;logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge&amp;logo=openai&amp;logoColor=white" height="34" alt="Codex" />
+  <img src="https://img.shields.io/badge/Claude_Code-D99675?style=for-the-badge&amp;logo=anthropic&amp;logoColor=white" height="34" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&amp;logo=openai&amp;logoColor=white" height="34" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&amp;logo=googlegemini&amp;logoColor=white" height="34" alt="Gemini" />
 </p>
 
 <h2 align="center">LLM Ecosystem &amp; Tech Stack</h2>
